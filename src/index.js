@@ -36,7 +36,7 @@ function createMarcup(countries) {
   } else {const markup = countries
     .map(({ name, flags, capital, population, languages }) => {
       return `
-    <li><img src="${flags.svg}" alt="flag" width="50"> <br> 
+    <li><img src="${flags.svg}" alt="flag" width="50"> 
     <span>${name.official}</span></li>
     <li>Capital: <span>${capital}</span></li>
     <li>Population: <span>${population}</span></li>
